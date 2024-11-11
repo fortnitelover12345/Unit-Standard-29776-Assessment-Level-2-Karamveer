@@ -92,6 +92,7 @@
 
 .info{
     font-size: 1.25em;
+    text-align: center;
 }
 
 
@@ -121,14 +122,23 @@
   border-radius: 5px;
 }
 .list{
- line-height: 50px;
+ line-height: 25px;
+ 
 }
+
 .line{
   height: 30px;
   background-color:#004c73;
 }
 .skate-img{
   border-radius: 5px;
+}
+.bike-img{
+  border-radius: 5px;
+}
+.logo-img{
+  width: 300px;
+  height: 187px;
 }
 /* Footer */
 .footer {
@@ -139,4 +149,9 @@
 .center{
     margin-left: auto;
     margin-right: auto;
+    border-spacing: 15px;
+}
+ul {
+  text-align: center;
+  list-style: inside;
 }
